@@ -8,6 +8,12 @@ Yet another starter kit for React Native. React Native Starter Kit helps you get
 - Easy to use
 - Simple
 
+# Features
+- Authentication
+- Navigation
+- Sidebar
+- Splash Screen
+
 ## Technologies
 
 React Native Starter Kit combines the following technologies:
