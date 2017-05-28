@@ -10,62 +10,28 @@ Yet another starter kit for React Native.
 - Flow
 - Eslint
 
-### Requirements
-- [Xcode](https://developer.apple.com/xcode/)
-- [Node](https://nodejs.org)
-- [Brew](http://brew.sh/)
-- [Git](https://git-scm.com/)
+[Read the Documentation →](https://github.com/bahattincinic/react-native-starter-kit/wiki)
 
-### Installation
+## Licence
 
-```bash
-$ npm install -g react-native-cli
-$ brew install watchman
-$ brew install flow
-$ git clone git@github.com:bahattincinic/react-native-starter-kit.git
-$ cd react-native-starter-kit && npm install
-```
+MIT License
 
-### To run the project for Android
+Copyright (c) 2017 Bahattin Çiniç
 
-```bash
-$ react-native run-android
-```
-Facebook recommended to Genymotion for Android Emulator. Genymotion is Fast And Easy Android Emulator.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-### To run the project for IOS (require Xcode)
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-```bash
-$ Open ios/starterKit.xcodeproj
-Run project with xcode.
-```
-or
-```bash
-$ react-native run-ios
-```
-
-Xcode 8.0 or higher is required. It can be installed from the App Store.
-
-### Linting
-
-```bash
-$ npm run lint
-```
-Lints your JavaScript.
-
-
-### How to generate APK ?
-
-```bash
-$ cd android
-$ ./gradlew assembleRelease
-```
-
-The generated APK can be found under **android/app/build/outputs/apk/app-release.apk**, and is ready to be distributed.
-
-### Xcode & IOS Simulator Shortcuts
-
-- Clean Build -> ⇧⌘K (Shift + Command + K) - to clean builded frameworks.
-- Clean Build Folder -> ⌥⇧⌘K (Option+Shift+Command+K)
-- Build -> ⌘B
-- Developer Menu -> ⌘D (IOS Simulator)
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
