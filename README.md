@@ -4,6 +4,10 @@
 
 Yet another starter kit for React Native. React Native Starter Kit helps you get started with React Native.
 
+# Benefits
+- Easy to use
+- Simple
+
 ## Technologies
 
 React Native Starter Kit combines the following technologies:
@@ -20,6 +24,13 @@ Flow is a static type checker for avascript
 A pluggable and configurable linter tool for identifying and reporting on patterns in JavaScript. Maintain your code quality with ease.
 
 [Read the Documentation →](https://github.com/bahattincinic/react-native-starter-kit/wiki)
+
+## Deployment
+Read the [wiki](https://github.com/bahattincinic/react-native-starter-kit/wiki) to learn how to deploy the application
+
+## Contributing
+If you find any problems, please open an issue or submit a fix as a pull request.
+
 
 ## Licence
 
