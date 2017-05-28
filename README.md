@@ -1,4 +1,4 @@
-![alt text](icon.png)
+<img src="icon.png" width="120">
 
 # React Native Starter Kit
 
