@@ -3,13 +3,12 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import {
-  StyleProvider, Form, Item, Input, Label, Button, Text, View
+  StyleProvider, Form, Item, Input, Label, Button, Text, View, Content
 } from 'native-base';
 import getTheme from '../../theme/components';
 import Toolbar from '../../components/toolbar';
 import * as actionCreators from '../../action_creators';
 import Main from '../static/Main';
-import ForgotPassword from './ForgotPassword';
 import type { State } from '../../types';
 
 
@@ -31,17 +30,6 @@ class Login extends Component {
           navigator: this.props.navigator,
           component: Main,
           reset: true
-        }
-      );
-    });
-  }
-
-  handleForgotPassword() {
-    requestAnimationFrame(() => {
-      this.props.navigate(
-        {
-          navigator: this.props.navigator,
-          component: ForgotPassword
         }
       );
     });

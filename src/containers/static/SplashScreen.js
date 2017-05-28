@@ -44,7 +44,7 @@ class SplashScreen extends Component {
     return (
       <StyleProvider style={getTheme()}>
         <Container style={{ backgroundColor: '#de0000' }}>
-          <Content style={{ marginTop: 20 }}>
+          <Content style={{ marginTop: 100 }}>
             <Spinner color="white" />
           </Content>
         </Container>

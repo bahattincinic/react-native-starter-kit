@@ -10,11 +10,7 @@ export const dummyUser: User = {
 export const dummyToken: string = 'Test token';
 
 export const dummyLogin: User = { username : 'demo'
-                                , phone: '+90 532 245 43 44'
                                 , password: 'demo'
-                                , last_active: 'today'
-                                , status: 'working'
-                                , thumbnail: require('./images/initial/profile.jpg')
                                 };
 
 export const dummySplashScreenTimeout = 3000;

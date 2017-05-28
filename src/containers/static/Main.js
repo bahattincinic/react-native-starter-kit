@@ -3,8 +3,9 @@
 
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { StyleProvider, Content, Text, } from 'native-base';
+import { StyleProvider, Content, Text } from 'native-base';
 import Toolbar from '../../components/toolbar';
+import getTheme from '../../theme/components';
 import * as actionCreators from '../../action_creators';
 import type {
   State
@@ -21,7 +22,9 @@ class Main extends Component {
           navigator={this.props.navigator}
           openSidebar={this.props.openSidebar}>
           <Content>
-            <Text>React Native Starter Kit Dashboard</Text>
+            <Text style={{ marginLeft: 30, marginTop: 40 }}>
+              React Native Starter Kit Dashboard
+            </Text>
           </Content>
         </Toolbar>
       </StyleProvider>

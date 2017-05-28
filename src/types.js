@@ -56,6 +56,7 @@ export type Event = {| title: string
 export type AppState = {| loading: boolean
                        ,  accessToken: ?string
                        ,  user: ?Object
+                       ,  isOnline: boolean
                        ,  loggedIn: boolean
                        ,  events: Array<Event>
                        ,  navigator: any

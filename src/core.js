@@ -12,16 +12,14 @@ const StateRecord = Record(
   , accessToken: undefined
   , loggedIn: false
   , user: undefined
+  , isOnline: true
   , events: []
   , navigator: null
   }
 );
 
 export const InitialState: State = new StateRecord({ user: {}
-                                                   , newsfeed: feeds
-                                                   , featuredEvents: events
                                                    , events: events
-                                                   , stats: stats
                                                    });
 
 export function setNavigator(state: State, navigator: any): State {
