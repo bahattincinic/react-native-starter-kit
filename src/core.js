@@ -5,7 +5,6 @@
 
 import { Record } from 'immutable';
 import type { State, User } from './types';
-import { events} from './fixtures';
 
 const StateRecord = Record(
   { loading: false
@@ -13,13 +12,11 @@ const StateRecord = Record(
   , loggedIn: false
   , user: undefined
   , isOnline: true
-  , events: []
   , navigator: null
   }
 );
 
 export const InitialState: State = new StateRecord({ user: {}
-                                                   , events: events
                                                    });
 
 export function setNavigator(state: State, navigator: any): State {
