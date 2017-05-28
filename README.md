@@ -1,3 +1,5 @@
+![alt text](icon.png)
+
 # React Native Starter Kit
 
 Yet another starter kit for React Native. React Native Starter Kit helps you get started with React Native.
