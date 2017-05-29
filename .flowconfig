@@ -14,11 +14,6 @@
 .*/Libraries/react-native/React.js
 .*/Libraries/react-native/ReactNative.js
 
-; Ignore native-base
-.*/node_modules/native-base/*
-.*/node_modules/react-native-easy-grid/*
-.*/node_modules/react-native-keyboard-aware-scroll-view/*
-
 [include]
 
 [libs]
