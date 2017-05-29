@@ -45,6 +45,7 @@ If you find any problems, please open an issue or submit a fix as a pull request
 MIT License
 
 Copyright (c) 2017 Bahattin Çiniç
+
 Copyright (c) 2017 Burak Alkan
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
