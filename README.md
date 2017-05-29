@@ -4,6 +4,10 @@
 
 Yet another starter kit for React Native. React Native Starter Kit helps you get started with React Native.
 
+# Screenshot
+
+![](screenshot.gif)
+
 # Benefits
 - Easy to use
 - Simple
