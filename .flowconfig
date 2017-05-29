@@ -5,13 +5,19 @@
 ; Ignore "BUCK" generated dirs
 <PROJECT_ROOT>/\.buckd/
 
-.*/node_modules/*
+; Ignore unexpected extra "@providesModule"
+.*/node_modules/.*/node_modules/fbjs/.*
 
 ; Ignore duplicate module providers
 ; For RN Apps installed via npm, "Libraries" folder is inside
 ; "node_modules/react-native" but in the source repo it is in the root
 .*/Libraries/react-native/React.js
 .*/Libraries/react-native/ReactNative.js
+
+; Ignore native-base
+.*/node_modules/native-base/*
+.*/node_modules/react-native-easy-grid/*
+.*/node_modules/react-native-keyboard-aware-scroll-view/*
 
 [include]
 
@@ -43,4 +49,4 @@ suppress_comment=\\(.\\|\n\\)*\\$FlowExpectedError
 unsafe.enable_getters_and_setters=true
 
 [version]
-^0.45.0
+^0.40.0

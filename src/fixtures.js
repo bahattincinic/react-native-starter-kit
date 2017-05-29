@@ -1,6 +1,6 @@
 // @flow
 
-import type { User, Newsfeed } from './types';
+import type { User } from './types';
 
 export const dummyUser: User = {
   username: 'John Doe',
