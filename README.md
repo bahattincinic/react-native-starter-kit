@@ -7,6 +7,7 @@ Yet another starter kit for React Native. React Native Starter Kit helps you get
 # Benefits
 - Easy to use
 - Simple
+- Easy to create new project
 
 # Features
 - Authentication
@@ -18,16 +19,13 @@ Yet another starter kit for React Native. React Native Starter Kit helps you get
 
 React Native Starter Kit combines the following technologies:
 
-#### React Native
-React Native lets you build mobile apps using only JavaScript. It uses the same design as React, letting you compose a rich mobile UI from declarative components.
-#### Native Base
-NativeBase is an open source framework to build React Native apps over a single JavaScript codebase for Android and iOS.
-#### Redux
-Redux is a predictable state container for JavaScript apps. 
-#### Flow
-Flow is a static type checker for avascript
-#### Eslint
-A pluggable and configurable linter tool for identifying and reporting on patterns in JavaScript. Maintain your code quality with ease.
+| Technology | Description |
+| ---------- | ----------- |
+| **React Native** | React Native lets you build mobile apps using only JavaScript. It uses the same design as React, letting you compose a rich mobile UI from declarative components. |
+| **Native Base**  | NativeBase is an open source framework to build React Native apps over a single JavaScript codebase for Android and iOS. |
+| **Redux**  | Redux is a predictable state container for JavaScript apps. |
+| **Flow** | Flow is a static type checker for avascript |
+| **Eslint** | A pluggable and configurable linter tool for identifying and reporting on patterns in JavaScript. Maintain your code quality with ease. |
 
 [Read the Documentation →](https://github.com/bahattincinic/react-native-starter-kit/wiki)
 
