@@ -26,7 +26,7 @@ class Welcome extends Component {
         <View style={styles.container}>
           <Text>Welcome to React Native Starter Kit</Text>
 
-          <Button common block
+          <Button red common block
               style={{ marginTop: 30 }}
               onPress={this.handleLogin.bind(this)}>
             <Text style={{ color: "#FFF" }}>Giriş</Text>
@@ -41,7 +41,9 @@ const styles = {
   container: {
     flex: 1,
     alignItems: 'center',
-    marginTop: 20
+    marginTop: 100,
+    marginLeft: 50,
+    marginRight: 50
   }
 };
 

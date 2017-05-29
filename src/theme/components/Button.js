@@ -149,6 +149,22 @@ export default (variables = variable) => {
         },
         backgroundColor: '#000',
       },
+
+      '.red': {
+        '.bordered': {
+          'NativeBase.Text': {
+            color: '#000',
+          },
+          'NativeBase.Icon': {
+            color: '#000',
+          },
+          'NativeBase.IconNB': {
+            color: '#000',
+          },
+        },
+        backgroundColor: '#de0000',
+      },
+
       '.light': {
         '.transparent': {
           'NativeBase.Text': {

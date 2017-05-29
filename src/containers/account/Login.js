@@ -65,7 +65,7 @@ class Login extends Component {
               <View style={{ marginBottom: 30 }} />
 
               <View style={{ marginLeft: 10, marginRight: 10 }}>
-                <Button common block marxFormElement
+                <Button red common block marxFormElement
                     onPress={this.handleLogin.bind(this)}>
                   <Text>Login</Text>
                 </Button>

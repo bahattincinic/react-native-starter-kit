@@ -48,7 +48,7 @@ class User extends Component {
 
             <View style={{ marginBottom: 10 }} />
 
-            <Button dark block marxFormElement
+            <Button red block marxFormElement
                 onPress={this.handleLogout.bind(this)}>
               <Text>Logout</Text>
             </Button>
