@@ -11,7 +11,7 @@ Yet another starter kit for React Native. React Native Starter Kit helps you get
 # Benefits
 - Easy to use
 - Simple
-- Easy to create new project
+- Easy to create a new project
 
 # Features
 - Authentication
